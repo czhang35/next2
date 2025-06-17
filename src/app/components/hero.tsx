@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
-import homeSrc from "../../public/home.jpg"
+// import homeSrc from "../../public/home.jpg"
 
 interface IProps {
     imgUrl: StaticImageData;

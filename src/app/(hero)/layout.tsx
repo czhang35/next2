@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "../../app/globals.css";
+import { Abel } from "next/font/google";
+// import "../../app/components/";
 import  Header  from "../components/header";
 
 
-const inter = Inter({
+const abel = Abel({
   subsets: ["latin"],
+  weight: '400',
 });
 
 
@@ -22,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >
+      <body className={abel.className}>
 
         <Header />
         {children}

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import reliabilitySrc from "../../../../public/reliability.jpg"
 import Hero from '../../components/hero'

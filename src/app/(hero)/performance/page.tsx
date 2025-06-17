@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import performanceSrc from "../../../../public/performance.jpg"
 import Hero from '../../components/hero'
